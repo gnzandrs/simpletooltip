@@ -1,0 +1,10 @@
+.tooltipHide {
+	display:none;
+}
+.tooltipShow {
+	border:4px solid #D7DF01;
+	background:#D7DF01;
+	color:#6c6c6c;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size:11px; 
+}

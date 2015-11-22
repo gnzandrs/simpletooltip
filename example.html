@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" />
+		<title>Simple Tooltip Example</title>
+		<link rel="stylesheet" href="style.css" />
+		<script type="text/javascript" src="simpletooltip.js"></script>
+		<script>
+		function initToolTip()
+		{		
+			simpleTooltip('first_name', 'Nombre del usuario.');
+			simpleTooltip('last_name', 'Apellido del usuario.');
+			simpleTooltip('email', 'Correo Electronico.');
+		}
+		</script>
+	</head>
+	<body onload="initToolTip()">
+		<table>
+			<tr>
+				<td>Name:</td>
+				<td>
+					<input type="text" id="first_name" />
+				</td>
+			</tr>
+			<tr>
+				<td>Lastname:</td>
+				<td>
+					<input type="text" id="last_name" />
+				</td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td>
+					<input type="text" id="email" />
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
